@@ -1,6 +1,7 @@
 const axios = require('axios')
+const constants = require('../constants')
 
 module.exports = axios.create({
-    baseURL: "http://google.com",
-    timeout: 60000
+    baseURL: constants.baseURL,
+    timeout: 5000
   })
