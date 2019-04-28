@@ -1,0 +1,17 @@
+{
+  "name": "echo-bot",
+  "version": "0.0.0",
+  "description": "An example LINE bot just to echo messages",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^5.0.0",
+    "axios": "^0.18.0",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.3",
+    "node-stringbuilder": "^2.2.4",
+    "util": "^0.11.1"
+  }
+}
