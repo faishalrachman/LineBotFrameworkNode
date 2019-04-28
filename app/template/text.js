@@ -6,7 +6,7 @@ return {
 }
 
 module.exports = {
-    greeting(){
-        return makeText("this is greeting message")
-    }
+    greeting:  makeText("this is greeting message, please input name"),
+    finishRegister: makeText("thank you for inputting your name"),
+    menu: makeText("ini adalah menu"),
 }
